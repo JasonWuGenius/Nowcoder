@@ -1,7 +1,6 @@
-
 '''
 	缩写
-
+	
 	输入描述:
 	输入包括一个字符串s,字符串长度length(1 ≤ length ≤ 50),字符串中只包括小写字母('a'~'z')和空格。
 	输出描述:
@@ -15,7 +14,7 @@
 	lgtm
 
 '''
-
+# coding = gbk
 s = input().split()
 res = ''
 for i in range(len(s)):
