@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - superLink",
+            "request": "launch",
+            "mainClass": "BigComp_2018.superLink"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - abbravation",
             "request": "launch",
             "mainClass": "BigComp_2018.abbravation"
