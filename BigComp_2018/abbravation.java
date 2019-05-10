@@ -1,26 +1,27 @@
 package BigComp_2018;
 
-/*
-	ËõÐ´
+/**
+    ç¼©å†™
 
-	ÌâÄ¿ÃèÊö
-	ÔÚÓ¢ÎÄÖÐ,ÎÒÃÇ»á°ÑÒ»Ð©³¤µÄÃû×Ö»òÕß¶ÌÓï½øÐÐËõÐ´¡£ÀýÈç"looks good to me"ËõÐ´Îª"lgtm",¶ÌÓïÖÐµÄÃ¿¸öµ¥´ÊµÄÊ××ÖÄ¸×é³ÉËõÐ´¡£ÏÖÔÚ¸ø³öÒ»¸ö×Ö·û´®s,×Ö·û´®sÖÐ°üÀ¨Ò»¸ö»òÕß¶à¸öµ¥´Ê,µ¥´ÊÖ®¼äÒÔ¿Õ¸ñ·Ö¸î,ÇëÊä³öÕâ¸ö×Ö·û´®µÄËõÐ´¡£
-	ÊäÈëÃèÊö:
-	ÊäÈë°üÀ¨Ò»¸ö×Ö·û´®s,×Ö·û´®³¤¶Èlength(1 ¡Ü length ¡Ü 50),×Ö·û´®ÖÐÖ»°üÀ¨Ð¡Ð´×ÖÄ¸('a'~'z')ºÍ¿Õ¸ñ¡£
-	Êä³öÃèÊö:
-	Êä³öÒ»¸ö×Ö·û´®,¼´ËõÐ´µÄ½á¹û¡£
-	Ê¾Àý1
-	ÊäÈë
-	¸´ÖÆ
+	é¢˜ç›®æè¿°
+	åœ¨è‹±æ–‡ä¸­,æˆ‘ä»¬ä¼šæŠŠä¸€äº›é•¿çš„åå­—æˆ–è€…çŸ­è¯­è¿›è¡Œç¼©å†™ã€‚ä¾‹å¦‚"looks good to me"ç¼©å†™ä¸º"lgtm",çŸ­è¯­ä¸­çš„æ¯ä¸ªå•è¯çš„é¦–å­—æ¯ç»„æˆç¼©å†™ã€‚çŽ°åœ¨ç»™å‡ºä¸€ä¸ªå­—ç¬¦ä¸²s,å­—ç¬¦ä¸²sä¸­åŒ…æ‹¬ä¸€ä¸ªæˆ–è€…å¤šä¸ªå•è¯,å•è¯ä¹‹é—´ä»¥ç©ºæ ¼åˆ†å‰²,è¯·è¾“å‡ºè¿™ä¸ªå­—ç¬¦ä¸²çš„ç¼©å†™ã€‚
+	è¾“å…¥æè¿°:
+	è¾“å…¥åŒ…æ‹¬ä¸€ä¸ªå­—ç¬¦ä¸²s,å­—ç¬¦ä¸²é•¿åº¦length(1 â‰¤ length â‰¤ 50),å­—ç¬¦ä¸²ä¸­åªåŒ…æ‹¬å°å†™å­—æ¯('a'~'z')å’Œç©ºæ ¼ã€‚
+	è¾“å‡ºæè¿°:
+	è¾“å‡ºä¸€ä¸ªå­—ç¬¦ä¸²,å³ç¼©å†™çš„ç»“æžœã€‚
+	ç¤ºä¾‹1
+	è¾“å…¥
+	å¤åˆ¶
 	looks good to me
-	Êä³ö
-	¸´ÖÆ
+	è¾“å‡º
+	å¤åˆ¶
 	lgtm
  */
 
+
 import java.io.*;
 import java.util.*;
-public class Main{
+public class abbravation{
     public static void main(String[] args) throws IOException{
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         String[] s = bf.readLine().split(" ");
