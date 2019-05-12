@@ -21,7 +21,7 @@ package BigComp_2018;
 import java.io.*;
 import java.lang.reflect.Array;
 import java.util.*;
-public class Main{
+public class airTravel{
     public static void main(String[] args) throws IOException{
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         String[] nums = bf.readLine().split(" ");
